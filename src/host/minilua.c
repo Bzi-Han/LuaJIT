@@ -202,6 +202,8 @@ int linedefined;
 int lastlinedefined;
 char short_src[60];
 int i_ci;
+int nparams;
+int isvararg;
 };
 typedef unsigned int lu_int32;
 typedef size_t lu_mem;
